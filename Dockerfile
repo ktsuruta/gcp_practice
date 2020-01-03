@@ -5,4 +5,3 @@ RUN pip install jupyterlab
 RUN mkdir ~/datascience
 RUN mkdir ~/datascience/.jupyter
 COPY jupyter_notebook_config.py /home/jovyan/datascience/.jupyter/jupyter_notebook_config.py
-RUN jupyter lab
